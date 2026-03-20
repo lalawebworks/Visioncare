@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION CARE | Premium Eye Care & Opticals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; overflow-x: hidden; }
+        .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .glass-nav { backdrop-filter: blur(12px); background: rgba(255, 255, 255, 0.9); }
+        .map-container iframe { width: 100% !important; border-radius: 1.5rem; height: 400px; min-height: 350px; border: 0; }
+        .rating-chip { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 sm:h-20 items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="bg-blue-600 p-2 rounded-lg shadow-lg">
+                        <i class="fas fa-eye text-white text-xl"></i>
+                    </div>
+                    <div class="flex flex-col leading-tight">
+                        <span class="text-lg sm:text-xl font-bold tracking-tight text-slate-900 uppercase">Vision</span>
+                        <span class="text-xs sm:text-sm font-semibold text-blue-600 tracking-widest uppercase">Care</span>
+                    </div>
+                </div>
+                <div class="hidden lg:flex space-x-8 font-semibold text-slate-600">
+                    <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                    <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                    <a href="#location" class="hover:text-blue-600 transition">Location</a>
+                </div>
+                <a href="tel:+917829821157" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition">
+                    +91 78298 21157
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-16 sm:pt-48 sm:pb-32 hero-bg relative px-4 text-center lg:text-left">
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-3xl mx-auto lg:mx-0">
+                <div class="flex flex-wrap items-center gap-3 mb-8 justify-center lg:justify-start">
+                    <div class="rating-chip px-4 py-1.5 rounded-full flex items-center space-x-2">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <span class="text-white font-bold">4.9</span>
+                        <span class="text-slate-400 text-sm">(170+ Reviews)</span>
+                    </div>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">High-Precision Care for <span class="text-blue-500 italic">Clear Vision.</span></h1>
+                <p class="text-lg sm:text-xl text-slate-300 mt-8 leading-relaxed">
+                    Professional computerized eye testing and a premium eyewear collection in the heart of Subramanyanagar. Trusted quality for your family.
+                </p>
+                <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#location" class="bg-white text-slate-900 px-10 py-4 rounded-xl font-bold text-lg hover:bg-slate-100 transition shadow-2xl">
+                        View Location
+                    </a>
+                    <a href="tel:+917829821157" class="border-2 border-white/20 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition">
+                        Call +91 78298 21157
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-slate-50 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-3xl border border-slate-100 shadow-sm text-center">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 mx-auto">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Computerized Testing</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Advanced diagnostic tools ensuring the most accurate prescription for your glasses.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl border border-slate-100 shadow-sm text-center">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 mx-auto">
+                        <i class="fas fa-glasses"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Designer Frames</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">A handpicked collection of modern and classic frames to match every style.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl border border-slate-100 shadow-sm text-center">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 mx-auto">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">IT Eye Protection</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Specialized blue-cut lenses designed for maximum comfort during screen use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="bg-slate-900 rounded-[3rem] overflow-hidden shadow-2xl flex flex-col lg:grid lg:grid-cols-2">
+                <div class="p-8 sm:p-12 lg:p-20 text-white order-2 lg:order-1">
+                    <h2 class="text-3xl font-bold mb-8">Visit Vision Care</h2>
+                    
+                    <div class="space-y-10">
+                        <div class="flex items-start">
+                            <div class="bg-blue-600/20 p-3 rounded-xl mr-6">
+                                <i class="fas fa-map-marker-alt text-xl text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-blue-400 text-xs font-bold uppercase tracking-widest mb-1">Store Address</p>
+                                <p class="text-base sm:text-lg leading-relaxed">
+                                    Shop no 2, 10th cross, 14th Main Rd,<br>
+                                    opp. to Muneshwara Temple, Subramanyanagar,<br>
+                                    Bengaluru, Karnataka 560021
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-600/20 p-3 rounded-xl mr-6">
+                                <i class="fas fa-phone-alt text-xl text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-blue-400 text-xs font-bold uppercase tracking-widest mb-1">Phone Number</p>
+                                <p class="text-xl font-bold">+91 78298 21157</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-600/20 p-3 rounded-xl mr-6">
+                                <i class="fas fa-clock text-xl text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-blue-400 text-xs font-bold uppercase tracking-widest mb-1">Hours</p>
+                                <p class="text-lg">Open until 09:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12">
+                        <a href="https://wa.me/917829821157" target="_blank" class="bg-green-600 text-white px-8 py-4 rounded-xl font-bold inline-flex items-center hover:bg-green-700 transition w-full sm:w-auto justify-center">
+                            <i class="fab fa-whatsapp mr-3 text-2xl"></i> WhatsApp Us
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 sm:p-6 order-1 lg:order-2">
+                    <div class="map-container shadow-2xl overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4807886134236!2d77.5589725!3d13.0050261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dd61d9c4d31%3A0xb359d7e9e9fd0615!2sVISION%20CARE!5e0!3m2!1sen!2sin!4v1774004384019!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-12 border-t border-slate-100 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-eye text-blue-600 text-xl"></i>
+                <span class="text-lg font-bold tracking-tight text-slate-900 uppercase">Vision Care</span>
+            </div>
+            <div class="text-slate-500 text-sm sm:text-base font-semibold tracking-wide">
+                Lalawebworks@gmail.com
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
